@@ -1,75 +1,21 @@
 # Nuxt Base
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
-## Setup
+[简体中文](./README-ZH_CN.md)
 
-Make sure to install dependencies:
+Integrates a set of commonly used modules to provide an out-of-the-box experience.
 
-```bash
-# npm
-npm install
+- icon
+- image
+- pinia
+- eslint
+- tailwindcss
+- vueuse
+- color-mode
 
-# pnpm
-pnpm install
+Features already configured
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. ESLint formatting
+2. Pre-commit ESLint checks and formatting
+3. Tailwind integration
