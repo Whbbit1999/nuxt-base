@@ -11,23 +11,30 @@ export default withNuxt(
       html: true,
       markdown: 'prettier',
     },
-    vue: true,
     typescript: true,
 
     ignores: [
       '**/build/**',
       '**/components/ui/**',
     ],
-
+    vue: {
+      overrides: {
+        'vue/block-lang': ['warn', {
+          script: { lang: ['ts', 'tsx'] },
+        }],
+        'vue/enforce-style-attribute': ['warn', {
+          allow: ['scoped'],
+        }],
+      },
+    },
+    imports: {
+      overrides: {
+        'perfectionist/sort-imports': ['error', {
+          tsconfig: { rootDir: '.' },
+        }],
+      },
+    },
     rules: {
-      'perfectionist/sort-imports': ['error', {
-        tsconfig: { rootDir: '.' },
-      }],
-      'yaml/indent': ['error', 2],
-      'jsonc/indent': ['error', 2],
-      'vue/block-lang': ['warn', {
-        script: { lang: ['ts', 'tsx'] },
-      }],
     },
   }),
 )
