@@ -29,12 +29,14 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/hints',
     '@pinia/nuxt',
-    'pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/color-mode',
     '@nuxtjs/seo',
   ],
 
-  css: ['~/assets/css/tailwind.css'],
+  css: [
+    '~/assets/css/main.css',
+    '~/assets/css/tailwind.css',
+  ],
 
   colorMode: {
     preference: 'system',
@@ -72,6 +74,8 @@ export default defineNuxtConfig({
   experimental: {
     extractAsyncDataHandlers: true,
     typescriptPlugin: true,
+    typedPages: true,
+    renderJsonPayloads: true,
   },
 
   eslint: {
