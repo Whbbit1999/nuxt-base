@@ -1,7 +1,7 @@
 {
   "name": "nuxt-base",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": false,
   "packageManager": "pnpm@11.17.0",
   "author": "Whbbit1999",
