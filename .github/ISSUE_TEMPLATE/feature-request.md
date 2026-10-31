@@ -1,6 +1,6 @@
 ---
 name: "✨ Feature Request"
-about: Suggest an idea for improving shadcn-vue-admin
+about: Suggest an idea for improving Nuxt Base
 title: "[Feature Request]: "
 labels: enhancement
 assignees: ""

@@ -1,6 +1,6 @@
 ---
 name: "Bug report"
-about: Report a bug or unexpected behavior in shadcn-vue-admin
+about: Report a bug or unexpected behavior in Nuxt Base
 title: "[BUG]: "
 labels: bug
 assignees: ""
